@@ -13,12 +13,12 @@ docker-compose up --build
 ivan / ivan
 
 
-## Tests
+## Тесты
 
-Run unit and integration tests:
+Запуск модульных и интеграционных тестов:
 
 ```bash
 mvn test
 ```
 
-Integration tests use Testcontainers (PostgreSQL). Ensure Docker is running for ITs.
+В интеграционных тестах используются Testcontainers (PostgreSQL). Убедитесь, что Docker запущен.
