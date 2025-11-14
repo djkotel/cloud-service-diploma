@@ -6,19 +6,14 @@
 
 ```bash
 docker-compose up --build
-```
-
 Логин/пароль
 
 ivan / ivan
-
 
 ## Тесты
 
 Запуск модульных и интеграционных тестов:
 
-```bash
-mvn test
-```
+bash
 
-В интеграционных тестах используются Testcontainers (PostgreSQL). Убедитесь, что Docker запущен.
+mvn test
